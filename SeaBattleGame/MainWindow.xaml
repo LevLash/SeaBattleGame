@@ -1,0 +1,140 @@
+﻿<Window x:Class="SeaBattleGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SeaBattleGame"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1600">
+    <Grid x:Name="field">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            
+        </Grid.ColumnDefinitions>
+
+        <Menu Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="32">
+            <MenuItem Header="Game">
+                <MenuItem x:Name="btnCreate" Header="Create" Click="MenuItemCreate_Click" />
+                <MenuItem x:Name="btnConnect" Header="Connect" Click="MenuItemConnect_Click"/>
+                <MenuItem x:Name="btnDisconnect" Header="Disconnect" Click="MenuItemDisconnect_Click" />
+                <MenuItem x:Name="btnStart" Header="Start" Click="MenuItemStart_Click"/>
+                <Separator />
+                <MenuItem Header="Quit" Click="MenuItemQuit_Click" />
+            </MenuItem>
+        </Menu>
+        <TextBlock Grid.Row="1" Grid.Column="6"  VerticalAlignment="Center" HorizontalAlignment="Center">A</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="7"  VerticalAlignment="Center" HorizontalAlignment="Center">B</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="8"  VerticalAlignment="Center" HorizontalAlignment="Center">C</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="9"  VerticalAlignment="Center" HorizontalAlignment="Center">D</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="10" VerticalAlignment="Center" HorizontalAlignment="Center">E</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="11" VerticalAlignment="Center" HorizontalAlignment="Center">F</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="12" VerticalAlignment="Center" HorizontalAlignment="Center">G</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="13" VerticalAlignment="Center" HorizontalAlignment="Center">H</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="14" VerticalAlignment="Center" HorizontalAlignment="Center">I</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="15" VerticalAlignment="Center" HorizontalAlignment="Center">J</TextBlock>
+
+        <TextBlock Grid.Row="2"  Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center">1</TextBlock>
+        <TextBlock Grid.Row="3"  Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center">2</TextBlock>
+        <TextBlock Grid.Row="4"  Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center">3</TextBlock>
+        <TextBlock Grid.Row="5"  Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center">4</TextBlock>
+        <TextBlock Grid.Row="6"  Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center">5</TextBlock>
+        <TextBlock Grid.Row="7"  Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center">6</TextBlock>
+        <TextBlock Grid.Row="8"  Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center">7</TextBlock>
+        <TextBlock Grid.Row="9"  Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center">8</TextBlock>
+        <TextBlock Grid.Row="10" Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center">9</TextBlock>
+        <TextBlock Grid.Row="11" Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center">10</TextBlock>
+
+
+        <TextBlock Grid.Row="1" Grid.Column="20"  VerticalAlignment="Center" HorizontalAlignment="Center">A</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="21"  VerticalAlignment="Center" HorizontalAlignment="Center">B</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="22"  VerticalAlignment="Center" HorizontalAlignment="Center">C</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="23"  VerticalAlignment="Center" HorizontalAlignment="Center">D</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="24" VerticalAlignment="Center" HorizontalAlignment="Center">E</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="25" VerticalAlignment="Center" HorizontalAlignment="Center">F</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="26" VerticalAlignment="Center" HorizontalAlignment="Center">G</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="27" VerticalAlignment="Center" HorizontalAlignment="Center">H</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="28" VerticalAlignment="Center" HorizontalAlignment="Center">I</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="29" VerticalAlignment="Center" HorizontalAlignment="Center">J</TextBlock>
+
+        <TextBlock Grid.Row="2"  Grid.Column="19" VerticalAlignment="Center" HorizontalAlignment="Center">1</TextBlock>
+        <TextBlock Grid.Row="3"  Grid.Column="19" VerticalAlignment="Center" HorizontalAlignment="Center">2</TextBlock>
+        <TextBlock Grid.Row="4"  Grid.Column="19" VerticalAlignment="Center" HorizontalAlignment="Center">3</TextBlock>
+        <TextBlock Grid.Row="5"  Grid.Column="19" VerticalAlignment="Center" HorizontalAlignment="Center">4</TextBlock>
+        <TextBlock Grid.Row="6"  Grid.Column="19" VerticalAlignment="Center" HorizontalAlignment="Center">5</TextBlock>
+        <TextBlock Grid.Row="7"  Grid.Column="19" VerticalAlignment="Center" HorizontalAlignment="Center">6</TextBlock>
+        <TextBlock Grid.Row="8"  Grid.Column="19" VerticalAlignment="Center" HorizontalAlignment="Center">7</TextBlock>
+        <TextBlock Grid.Row="9"  Grid.Column="19" VerticalAlignment="Center" HorizontalAlignment="Center">8</TextBlock>
+        <TextBlock Grid.Row="10" Grid.Column="19" VerticalAlignment="Center" HorizontalAlignment="Center">9</TextBlock>
+        <TextBlock Grid.Row="11" Grid.Column="19" VerticalAlignment="Center" HorizontalAlignment="Center">10</TextBlock>
+
+
+        <StackPanel x:Name="ships_panel" Grid.Row="3" Grid.Column="16" Grid.ColumnSpan="2" Grid.RowSpan="4">
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,25">
+                <RadioButton GroupName="ships_group" x:Name="ship1_rbtn" VerticalAlignment="Center" IsChecked="True"/>
+                <TextBlock x:Name="ship1_text" VerticalAlignment="Center" FontSize="20">[] (4)</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,25">
+                <RadioButton GroupName="ships_group" x:Name="ship2_rbtn" VerticalAlignment="Center"/>
+                <TextBlock x:Name="ship2_text" VerticalAlignment="Center" FontSize="20">[][] (3)</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,25">
+                <RadioButton GroupName="ships_group" x:Name="ship3_rbtn" VerticalAlignment="Center"/>
+                <TextBlock x:Name="ship3_text" VerticalAlignment="Center" FontSize="20">[][][] (2)</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,25">
+                <RadioButton GroupName="ships_group" x:Name="ship4_rbtn" VerticalAlignment="Center"/>
+                <TextBlock x:Name="ship4_text" VerticalAlignment="Center" FontSize="20">[][][][] (1)</TextBlock>
+            </StackPanel>
+        </StackPanel>
+
+        <Button x:Name="btn_readyPrepare" Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="3" Grid.RowSpan="2" Content="Ready" FontSize="25" Click="btn_readyPrepare_Click"/>
+        
+        
+    </Grid>
+</Window>
